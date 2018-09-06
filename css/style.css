@@ -198,7 +198,10 @@ body {
         flex: 0 1 75%;
     }
     .social-link img {
-        width: 15%;
+        width: 18%;
+    }
+    .section-content {
+        padding: 1rem 2rem;
     }
 
 }
@@ -209,16 +212,9 @@ body {
     .content-about {
         flex: 0 1 45%;
     }
-    .social-link img {
-        width: 20%;
-    }
     
 }
-@media(max-width: 360px) {
-    .content-about {
-        flex: 0 1 80%;
-    }
-}
+
 @media(min-width: 640px) {
     .home {
         display: flex;
@@ -227,11 +223,25 @@ body {
     .container-home, .landing-image {
         height: 100vh;
     }
+    
 }
 @media(max-width: 480px) {
     .btn {
         padding: 0.5rem 1rem;
         font-size: 0.8rem;
+    }
+    .social-link img {
+        margin-left: 20%;
+    }
+}
+@media(max-width: 400px) {
+    .social-link img {
+        width: 25%;
+    }
+}
+@media(max-width: 360px) {
+    .content-about {
+        flex: 0 1 80%;
     }
 }
 
